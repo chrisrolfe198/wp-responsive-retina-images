@@ -1,6 +1,7 @@
-== Picture Element Responsive and Retina Images ==
+=== Picture Element Responsive and Retina Images ===
 Contributors: christhewanderer
 Tags: picture, responsive-images, retina-images
+Requires at least: 4.0.0
 Tested up to: 4.7.2
 Stable tag: 1.0.0
 License: MIT
