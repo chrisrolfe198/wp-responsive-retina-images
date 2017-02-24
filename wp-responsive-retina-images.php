@@ -12,8 +12,6 @@ $content_width = 3000;
 
 if ( !function_exists( 'perri_generate_picture' ) ) {
 	function perri_generate_picture( $picture_id, array $images, $attrs = [] ) {
-		if (!is_int($picture_id)) return;
-
 		$source_function = apply_filters( 'responsive_retina_images_source_function', 'wp_get_attachment_image_src' );
 		$array_index = apply_filters( 'responsive_retina_images_source_function_index', 0 );
 
