@@ -10,7 +10,7 @@ License: MIT
 
 $content_width = 3000;
 
-function generate_picture( $picture_id, array $images, $attrs = [] ) {
+function perri_generate_picture( $picture_id, array $images, $attrs = [] ) {
 	if (!is_int($picture_id)) return;
 
 	$source_function = apply_filters( 'responsive_retina_images_source_function', 'wp_get_attachment_image_src' );
@@ -52,7 +52,7 @@ function generate_picture( $picture_id, array $images, $attrs = [] ) {
 	return;
 }
 
-function add_image_size_for_picture( $name, $width = 0, $height = 0, $crop = false ) {
+function perri_add_image_size_for_picture( $name, $width = -1, $height = -1, $crop = false ) {
 	$add_size_function = apply_filters( 'responsive_retina_images_add_size_function', 'wp_get_attachment_image_src' );
 
 	if ( function_exists( $add_size_function ) ) {
