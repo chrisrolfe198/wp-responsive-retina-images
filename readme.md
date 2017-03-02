@@ -11,7 +11,7 @@ A plugin that helps you generate a picture element for creating responsive image
 == Description ==
 WordPress has introduced the srcset feature into core which is great but this plugin goes a step further to help theme developers use the picture element with a fallback to a standard image tag and srcset.
 
-This plugin also offers support for on the fly image generation plugins. In fact it's hugely encouraged to use one as this plugin was cause image uploads to slow down otherwise.
+This plugin also offers support for on the fly image generation plugins. In fact it's hugely encouraged to use one as this plugin can cause image uploads to slow down otherwise.
 
 It also offers support for 2x and 3x images for retina screens so you can serve the best image possible for your visitors.
 
